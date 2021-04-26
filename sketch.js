@@ -19,7 +19,7 @@ function setup() {
     Engine.run(engine);
 
     dustbin = new Dustbin(720,390,100,10);
-	paper = new paper(100,300,10);
+	paper = new Paper(100,300,10);
 	ground = Bodies.rectangle(width /2,400,width,10,
 	{
 		isStatic:true
